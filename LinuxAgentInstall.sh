@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /home/AzureUser;mkdir azagent;cd azagent;curl -fkSL -o vstsagent.tar.gz https://vstsagentpackage.azureedge.net/agent/2.170.1/vsts-agent-linux-x64-2.170.1.tar.gz;
+cd /home/AzureUser;mkdir agent;cd agent;curl -fkSL -o vstsagent.tar.gz https://vstsagentpackage.azureedge.net/agent/2.170.1/vsts-agent-linux-x64-2.170.1.tar.gz;
 sleep 5;
 tar -zxvf vstsagent.tar.gz;
 sleep 10;
